@@ -1,9 +1,31 @@
 model Model
 	culture: es-MX
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-MX
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
 
 annotation PBI_ProTooling = ["DevMode"]
 
 annotation PBIDesktopVersion = 2.143.878.0 (25.05)+b20aa3b866ec1b70879135a4e60e4b1301c75b21
+
+annotation PBI_QueryOrder = ["Dim_Calendario","dim_canal","Dim_Cliente","dim_sede","dim_vehiculo","Dim_Vendedor","fact_Presupuestos","Fact_Ventas","Fotos_Vehiculos"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+ref table Dim_Calendario
+ref table DateTableTemplate_516b86c3-912f-4663-8707-1a6b145c1492
+ref table LocalDateTable_4193814f-0156-49c8-8672-dd9437c9ed9e
+ref table dim_canal
+ref table Dim_Cliente
+ref table dim_sede
+ref table dim_vehiculo
+ref table Dim_Vendedor
+ref table LocalDateTable_f689c184-8bf1-468e-b4d4-2fbaf807e8c5
+ref table fact_Presupuestos
+ref table Fact_Ventas
+ref table Fotos_Vehiculos
 
 ref cultureInfo es-MX
 
