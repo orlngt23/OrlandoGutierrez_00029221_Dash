@@ -66,13 +66,12 @@ table Fact_Ventas
 
 	column 'Precio Venta sin IGV'
 		dataType: double
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
 		lineageTag: d64f2192-c056-4da7-baa7-a7a4bcbf9cf3
 		summarizeBy: sum
 		sourceColumn: Precio Venta sin IGV
 
 		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	column IGV
 		dataType: double
