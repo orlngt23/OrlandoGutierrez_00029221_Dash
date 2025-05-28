@@ -36,9 +36,10 @@ relationship AutoDetected_669883e9-b1b6-42d0-840b-49a864291fbb
 	fromColumn: Fact_Ventas.Vendedor
 	toColumn: Dim_Vendedor.ID_Vendedor
 
-relationship 545e7765-59f0-b6f5-8cfe-1463ae72b442
+relationship 31fdca67-7344-7c57-7914-6ae3393133c3
+	isActive: false
 	crossFilteringBehavior: bothDirections
-	fromCardinality: one
-	fromColumn: Fact_Ventas.ID
-	toColumn: Fotos_Vehiculos.Id
+	toCardinality: many
+	fromColumn: dim_vehiculo.modelo_vehiculo
+	toColumn: Fotos_Vehiculos.Modelo
 
