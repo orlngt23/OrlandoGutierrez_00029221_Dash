@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Ejercicio1_parcial2_BI"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "022dda3d-53b6-4403-9322-530c1d2b5a44"
+  }
+}

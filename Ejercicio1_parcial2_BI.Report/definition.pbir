@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Ejercicio1_parcial2_BI.SemanticModel"
+    }
+  }
+}
