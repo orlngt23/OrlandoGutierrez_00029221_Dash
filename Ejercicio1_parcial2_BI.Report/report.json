@@ -25,7 +25,17 @@
       "filters": "[]",
       "height": 720.00,
       "name": "c103aec906690e6f11a7",
-      "visualContainers": [],
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"92757efc3171f64e3553\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.976617303195635,\"y\":0,\"z\":0,\"width\":630.5222135619641,\"height\":231.45752143413873,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_canal.canal\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Fact_Ventas.Precio Venta sin IGV)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_canal\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"Fact_Ventas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"canal\"},\"Name\":\"dim_canal.canal\",\"NativeReferenceName\":\"canal\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Precio Venta sin IGV\"}},\"Function\":0},\"Name\":\"Sum(Fact_Ventas.Precio Venta sin IGV)\",\"NativeReferenceName\":\"Suma de Precio Venta sin IGV\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Precio Venta sin IGV\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Canales que generan mas ventas'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 231.46,
+          "width": 630.52,
+          "x": 9.98,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
       "width": 1280.00
     }
   ]
